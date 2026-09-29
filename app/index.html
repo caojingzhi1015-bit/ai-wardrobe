@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 衣橱管家</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23172033'/%3E%3Ctext x='16' y='22' font-family='sans-serif' font-size='14' font-weight='700' fill='%23fff' text-anchor='middle'%3EAI%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/app.css?v=20260929b">
+</head>
+<body>
+
+<aside class="sidebar">
+  <div class="brand">
+    <div class="brand-mark">AI</div>
+    <div class="brand-text">
+      <strong>衣橱管家</strong>
+      <span id="brand-sub">v3 · 本地优先</span>
+    </div>
+  </div>
+
+  <nav class="nav" id="nav">
+    <button class="nav-item" data-view="library"><span class="nav-ico">▤</span>衣橱<span class="nav-count" id="cnt-items">0</span></button>
+    <button class="nav-item" data-view="intake"><span class="nav-ico">＋</span>批量入库</button>
+    <button class="nav-item" data-view="profile"><span class="nav-ico">◎</span>风格画像</button>
+    <button class="nav-item" data-view="target"><span class="nav-ico">◈</span>目标风格</button>
+    <button class="nav-item" data-view="mix"><span class="nav-ico">⇅</span>我的搭配</button>
+    <button class="nav-item" data-view="evaluate"><span class="nav-ico">⚖</span>购买评估</button>
+    <button class="nav-item" data-view="discard"><span class="nav-ico">♻</span>断舍离</button>
+    <button class="nav-item" data-view="compose"><span class="nav-ico">▣</span>搭配工作台<span class="nav-count" id="cnt-outfits">0</span></button>
+    <button class="nav-item" data-view="settings"><span class="nav-ico">⚙</span>数据与设置</button>
+  </nav>
+
+  <div class="side-foot">
+    <div class="side-stat" id="side-stat">—</div>
+    <div class="side-note">所有数据只存在这台电脑的浏览器里<br>library.json 是唯一数据源</div>
+  </div>
+</aside>
+
+<main class="main">
+
+  <!-- ===== 衣橱 ===== -->
+  <section class="view" id="view-library">
+    <header class="view-head">
+      <div>
+        <h1>衣橱</h1>
+        <p class="view-sub">单品数据库 · <code>library.json</code></p>
+      </div>
+      <div class="head-actions">
+        <button class="btn ghost" id="btn-lib-export">导出 JSON</button>
+        <button class="btn ghost" id="btn-lib-import">导入 JSON</button>
+        <button class="btn ghost" id="btn-lib-import-zip">导入 zip</button>
+        <button class="btn primary" data-goto="intake">＋ 入库</button>
+      </div>
+    </header>
+
+    <div class="toolbar">
+      <input class="input search" id="lib-search" type="search" placeholder="搜名称 / 品牌 / 标签">
+      <div class="chips-inline" id="lib-cat-filter"></div>
+      <select class="input select" id="lib-season">
+        <option value="">全部季节</option>
+        <option value="春">春</option><option value="夏">夏</option>
+        <option value="秋">秋</option><option value="冬">冬</option>
+      </select>
+      <select class="input select" id="lib-sort">
+        <option value="new">最近入库</option>
+        <option value="price-desc">价格从高到低</option>
+        <option value="price-asc">价格从低到高</option>
+        <option value="name">按名称</option>
+      </select>
+    </div>
+
+    <div class="grid-items" id="lib-grid"></div>
+    <div class="empty" id="lib-empty" hidden>
+      <p>衣橱还是空的。</p>
+      <p class="muted">把商品图丢到「批量入库」就能开始，文件名建议写成 <code>299-taobao-uniqlo-燕麦色廓形卫衣.jpg</code></p>
+      <button class="btn primary" data-goto="intake">去入库</button>
+    </div>
+  </section>
+
+  <!-- ===== 批量入库 ===== -->
+  <section class="view" id="view-intake" hidden>
+    <header class="view-head">
+      <div>
+        <h1>批量入库</h1>
+        <p class="view-sub">模块一 · 拖图进来 → 去背 → 补元数据 → 写进 library.json</p>
+      </div>
+      <div class="head-actions">
+        <span class="pill" id="intake-mode-pill">去背：离线算法</span>
+        <button class="btn ghost" id="btn-intake-clear">清空队列</button>
+        <button class="btn primary" id="btn-intake-all" disabled>全部入库</button>
+      </div>
+    </header>
+
+    <div class="dropzone" id="dropzone">
+      <input type="file" id="file-input" multiple accept="image/*" hidden>
+      <div class="dz-inner">
+        <div class="dz-ico">⬇</div>
+        <div class="dz-title">把商品图拖到这里，或点击选择</div>
+        <div class="dz-sub">支持 jpg / png / webp · 支持一次多选 · 文件名按 <code>{价格}-{平台}-{品牌}-{简述}</code> 命名最省事</div>
+      </div>
+    </div>
+
+    <div class="intake-opts">
+      <label class="field">
+        <span>去背方式</span>
+        <select class="input select" id="opt-bgmode">
+          <option value="algo">离线算法（无需联网）</option>
+          <option value="model">AI 模型（首次需联网下载模型）</option>
+          <option value="none">不去背（保留原图）</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>容差 <b id="opt-tol-val">30</b></span>
+        <input class="range" id="opt-tol" type="range" min="5" max="90" value="30">
+      </label>
+      <label class="field">
+        <span>渐变跟随 <b id="opt-ptol-val">12</b></span>
+        <input class="range" id="opt-ptol" type="range" min="0" max="40" value="12">
+      </label>
+      <label class="check">
+        <input type="checkbox" id="opt-keep" checked>
+        <span>只保留最大主体（去噪点/水印碎片）</span>
+      </label>
+      <label class="check">
+        <input type="checkbox" id="opt-autodo">
+        <span>拖入后自动完成去背</span>
+      </label>
+    </div>
+
+    <div class="queue" id="queue"></div>
+  </section>
+
+  <!-- ===== 风格画像 ===== -->
+  <section class="view" id="view-profile" hidden>
+    <header class="view-head">
+      <div>
+        <h1>风格画像</h1>
+        <p class="view-sub">模块二 · 决定后面所有评分的基准</p>
+      </div>
+      <div class="head-actions">
+        <span class="pill" id="profile-origin">冷启动值</span>
+        <button class="btn ghost" id="btn-profile-ai">用穿搭照重算</button>
+        <button class="btn primary" id="btn-profile-save">保存</button>
+      </div>
+    </header>
+
+    <div class="cols">
+      <div class="card col-main" id="profile-form"></div>
+      <div class="col-side">
+        <div class="card">
+          <h3>AI 重算（可选）</h3>
+          <p class="muted small">上传 5 张以上真实穿搭照（自拍 / 街拍 / 收藏图），调视觉模型跨图找共性，整体覆盖这里的数据。<br>需要先在设置页配好视觉模型。</p>
+          <input type="file" id="style-photos" multiple accept="image/*" hidden>
+          <button class="btn ghost block" id="btn-pick-photos">选择穿搭照</button>
+          <div class="photo-strip" id="photo-strip"></div>
+          <button class="btn primary block" id="btn-run-style" disabled>开始分析并覆盖</button>
+          <div class="hint" id="style-hint"></div>
+        </div>
+        <div class="card">
+          <h3>这套数据怎么用</h3>
+          <ul class="bullets">
+            <li><b>购买评估</b>：色彩/廓形/材质/场合/价位五项打分全靠它</li>
+            <li><b>搭配工作台</b>：判断两件能不能搭的色差阈值也来自 palette</li>
+            <li><b>冷启动值</b>只是假设，发过真实照片后应被覆盖</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 目标风格 ===== -->
+  <section class="view" id="view-target" hidden>
+    <header class="view-head">
+      <div>
+        <h1>目标风格</h1>
+        <p class="view-sub">买衣服、搭衣服都以这块板为准 · 含现有衣橱的命中率</p>
+      </div>
+      <div class="head-actions">
+        <button class="btn ghost" data-goto="profile">去改画像</button>
+        <button class="btn primary" data-goto="mix">去搭配 →</button>
+      </div>
+    </header>
+    <div id="target-body"></div>
+  </section>
+
+  <!-- ===== 我的搭配 ===== -->
+  <section class="view" id="view-mix" hidden>
+    <header class="view-head">
+      <div>
+        <h1>我的搭配</h1>
+        <p class="view-sub">上装 / 下装 / 外套 各自左右滑动 · 外套是叠加层，点一下就能穿脱</p>
+      </div>
+      <div class="head-actions">
+        <button class="btn ghost" id="btn-mix-random">随便来一套</button>
+        <button class="btn ghost" id="btn-mix-clear">清空</button>
+        <button class="btn primary" id="btn-mix-save">保存这套</button>
+      </div>
+    </header>
+
+    <div class="card mix-stage-card">
+      <div id="mix-stage"></div>
+    </div>
+    <div id="mix-strips"></div>
+  </section>
+
+  <!-- ===== 购买评估 ===== -->
+  <section class="view" id="view-evaluate" hidden>
+    <header class="view-head">
+      <div>
+        <h1>购买评估</h1>
+        <p class="view-sub">模块三 + 模块四 · 买之前先算一遍闲置概率</p>
+      </div>
+      <div class="head-actions">
+        <button class="btn ghost" id="btn-eval-example">填个例子</button>
+        <button class="btn primary" id="btn-eval-run">生成评估</button>
+      </div>
+    </header>
+
+    <div class="cols">
+      <div class="card col-main" id="eval-form"></div>
+      <div class="col-side">
+        <div class="card" id="eval-result">
+          <div class="empty-inline">填好左边的信息，点「生成评估」。<br>评分公式写死在 AGENT-PROMPT §4，不自由发挥。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 断舍离 ===== -->
+  <section class="view" id="view-discard" hidden>
+    <header class="view-head">
+      <div>
+        <h1>断舍离雷达</h1>
+        <p class="view-sub">风格不合 + 搭配度低 + 吃灰 → 给出可丢弃标识</p>
+      </div>
+    </header>
+    <div id="discard-body"></div>
+  </section>
+
+  <!-- ===== 搭配工作台 ===== -->
+  <section class="view" id="view-compose" hidden>
+    <header class="view-head">
+      <div>
+        <h1>搭配工作台</h1>
+        <p class="view-sub">模块五 · flat lay 平铺，程序化拼贴，不调用任何生成式模型</p>
+      </div>
+      <div class="head-actions">
+        <span class="pill">1080 × 1920</span>
+        <button class="btn ghost" id="btn-compose-clear">清空选择</button>
+        <button class="btn primary" id="btn-compose-save">保存搭配</button>
+      </div>
+    </header>
+
+    <div class="cols compose-cols">
+      <div class="card picker">
+        <div class="card-head"><h3>选单品</h3><input class="input search small" id="compose-search" placeholder="搜索"></div>
+        <div id="compose-groups"></div>
+      </div>
+      <div class="canvas-wrap">
+        <canvas id="flatlay" width="1080" height="1920"></canvas>
+      </div>
+      <div class="card options">
+        <h3>输出设置</h3>
+        <label class="field"><span>搭配名称</span><input class="input" id="cmp-name" placeholder="如 周一通勤 · 藏青针织"></label>
+        <label class="field"><span>场合</span>
+          <select class="input select" id="cmp-occasion">
+            <option>通勤</option><option>休闲</option><option>约会</option><option>旅行</option><option>运动</option><option>居家</option>
+          </select>
+        </label>
+        <label class="field"><span>风格标签</span><div id="cmp-tags" class="chips"></div></label>
+        <label class="check"><input type="checkbox" id="cmp-label-on" checked><span>底部加一行小标签</span></label>
+        <input class="input" id="cmp-label" placeholder="01 / 燕麦色卫衣 × 直筒牛仔裤">
+        <button class="btn primary block" id="btn-compose-render">渲染预览</button>
+        <button class="btn ghost block" id="btn-compose-png">下载 PNG</button>
+        <div class="hint">白底 1080×1920 · 左右留 120 · 上下留 160 · 件间距 50 · 溢出整体等比缩放</div>
+      </div>
+    </div>
+
+    <h3 class="sec-title">已保存的搭配</h3>
+    <div class="grid-outfits" id="outfit-grid"></div>
+  </section>
+
+  <!-- ===== 设置 ===== -->
+  <section class="view" id="view-settings" hidden>
+    <header class="view-head">
+      <div>
+        <h1>数据与设置</h1>
+        <p class="view-sub">模型切换只改这里，不动 library.json</p>
+      </div>
+    </header>
+
+    <div class="cols">
+      <div class="card col-main">
+        <h3>模型接口（OpenAI 兼容）</h3>
+        <div class="form-grid">
+          <label class="field"><span>视觉模型 Base URL</span><input class="input" id="st-vision-base" placeholder="https://.../api/v3"></label>
+          <label class="field"><span>视觉模型 API Key</span><input class="input" id="st-vision-key" type="password" placeholder="留空表示不用 AI 打标"></label>
+          <label class="field"><span>视觉模型名</span><input class="input" id="st-vision-model" placeholder="doubao-vision-pro"></label>
+          <label class="field"><span>文本模型 Base URL</span><input class="input" id="st-llm-base" placeholder="https://api.deepseek.com/v1"></label>
+          <label class="field"><span>文本模型 API Key</span><input class="input" id="st-llm-key" type="password"></label>
+          <label class="field"><span>文本模型名</span><input class="input" id="st-llm-model" placeholder="deepseek-chat"></label>
+        </div>
+        <div class="warn-box">
+          key 只存在这台电脑的浏览器本地存储里，不会上传给任何第三方；但若接口不支持浏览器直连（CORS），调用会失败，届时如实报错。
+        </div>
+        <div class="row-actions"><button class="btn primary" id="btn-st-save">保存设置</button></div>
+      </div>
+
+      <div class="col-side">
+        <div class="card">
+          <h3>数据导入导出</h3>
+          <button class="btn ghost block" id="btn-exp-all">导出全部（zip）</button>
+          <button class="btn ghost block" id="btn-exp-lib">导出 library.json</button>
+          <button class="btn ghost block" id="btn-exp-profile">导出 style-profile.json</button>
+          <button class="btn ghost block" id="btn-exp-outfits">导出 outfits.json</button>
+          <input type="file" id="imp-file" accept=".json" hidden multiple>
+          <input type="file" id="imp-zip-file" accept=".zip" hidden>
+          <button class="btn ghost block" id="btn-imp">导入 JSON</button>
+          <button class="btn ghost block" id="btn-reseed">恢复内置衣橱数据</button>
+          <button class="btn danger block" id="btn-reset">清空全部数据</button>
+          <div class="hint">导出的 library.json 可直接放回 <code>wardrobe/</code> 目录。</div>
+        </div>
+        <div class="card">
+          <h3>说明书</h3>
+          <ul class="bullets">
+            <li><b>不去</b>淘宝/拼多多爬数据，主入口就是拖图</li>
+            <li>抠图只用分割/算法，禁止文生图重绘商品</li>
+            <li>搭配图只用程序拼贴，不额外生成任何装饰</li>
+            <li><code>[待确认]</code> 表示该字段没被核实，别拿它做决策</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-bg" data-close></div>
+  <div class="modal-box">
+    <div class="modal-head"><h2 id="modal-title">编辑</h2><button class="icon-btn" data-close>×</button></div>
+    <div class="modal-body" id="modal-body"></div>
+    <div class="modal-foot" id="modal-foot"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="assets/js/utils.js?v=20260929b"></script>
+<script src="assets/js/store.js?v=20260929b"></script>
+<script src="assets/js/bg.js?v=20260929b"></script>
+<script src="assets/js/vision.js?v=20260929b"></script>
+<script src="assets/js/library.js?v=20260929b"></script>
+<script src="assets/js/intake.js?v=20260929b"></script>
+<script src="assets/js/profile.js?v=20260929b"></script>
+<script src="assets/js/evaluate.js?v=20260929b"></script>
+<script src="assets/js/discard.js?v=20260929b"></script>
+<script src="assets/js/target.js?v=20260929b"></script>
+<script src="assets/js/mix.js?v=20260929b"></script>
+<script src="assets/js/compose.js?v=20260929b"></script>
+<script src="assets/js/settings.js?v=20260929b"></script>
+<script src="assets/js/app.js?v=20260929b"></script>
+</body>
+</html>

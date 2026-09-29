@@ -1,0 +1,1571 @@
+[
+ {
+  "id": "navy-layered-long-sleeve-tee",
+  "name": "藏蓝假两件宽松长袖T恤",
+  "brand": "宋正恩",
+  "price": 73.99,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "T恤",
+  "colorHex": "#232a3d",
+  "secondaryColorHex": "#f2f0ec",
+  "material": "棉（目测）",
+  "season": [
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "通勤"
+  ],
+  "aestheticTags": [
+   "korean",
+   "lazy"
+  ],
+  "tags": [
+   "假两件",
+   "落肩",
+   "宽松"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/navy-layered-long-sleeve-tee.jpg",
+  "notes": "限时补贴价¥73.99（原价¥89.99）；微信截图入库"
+ },
+ {
+  "id": "grey-green-barrel-jeans",
+  "name": "灰绿弯刀阔腿牛仔裤",
+  "brand": "[待确认]",
+  "price": 76.63,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "牛仔裤",
+  "colorHex": "#646558",
+  "secondaryColorHex": null,
+  "material": "牛仔",
+  "season": [
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "workwear",
+   "vintage"
+  ],
+  "tags": [
+   "弯刀",
+   "廓形",
+   "阔腿",
+   "褶皱",
+   "高腰"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/grey-green-barrel-jeans.jpg",
+  "notes": "平台加补价¥76.63起（原¥79起）"
+ },
+ {
+  "id": "inknots-indigo-barrel-jeans",
+  "name": "原色蓝弯刀牛仔裤",
+  "brand": "INKNOTS",
+  "price": 145.0,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "牛仔裤",
+  "colorHex": "#2e3a55",
+  "secondaryColorHex": null,
+  "material": "原色丹宁",
+  "season": [
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "通勤"
+  ],
+  "aestheticTags": [
+   "vintage",
+   "workwear"
+  ],
+  "tags": [
+   "弯刀",
+   "原色丹宁",
+   "阔腿",
+   "高级感"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/inknots-indigo-barrel-jeans.jpg",
+  "notes": "店铺优惠后¥145（原¥173）；已售1万+"
+ },
+ {
+  "id": "sanwild-black-bubble-skirt",
+  "name": "黑色花苞褶皱蓬蓬中长半身裙",
+  "brand": "Sanwild",
+  "price": 55.56,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "裙装",
+  "colorHex": "#1c1a1b",
+  "secondaryColorHex": null,
+  "material": "棉（目测）",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "约会"
+  ],
+  "aestheticTags": [
+   "korean",
+   "vintage"
+  ],
+  "tags": [
+   "花苞",
+   "蓬蓬",
+   "高腰",
+   "辣妹"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/sanwild-black-bubble-skirt.jpg",
+  "notes": "店铺优惠后¥55.56起（原¥61.76起）；已售6000+"
+ },
+ {
+  "id": "grey-graphic-sunshirt-long-sleeve",
+  "name": "灰色印花防晒罩衫长袖T",
+  "brand": "欧尼轻亚",
+  "price": 29.8,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "T恤",
+  "colorHex": "#b0aba4",
+  "secondaryColorHex": "#17171a",
+  "material": "涤纶（待确认）",
+  "season": [
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "korean",
+   "lazy"
+  ],
+  "tags": [
+   "防晒",
+   "印花",
+   "斜肩",
+   "慵懒"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/grey-graphic-sunshirt-long-sleeve.jpg",
+  "notes": "店铺优惠后¥29.8（原¥33.2）"
+ },
+ {
+  "id": "wash-blue-lowrise-bermuda-jeans",
+  "name": "复古低腰水洗蓝牛仔五分中裤",
+  "brand": "爹妈不骂",
+  "price": 45.8,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "短裤",
+  "colorHex": "#7d93a8",
+  "secondaryColorHex": null,
+  "material": "牛仔",
+  "season": [
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "vintage",
+   "y2k"
+  ],
+  "tags": [
+   "低腰",
+   "五分",
+   "做旧",
+   "宽松"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/wash-blue-lowrise-bermuda-jeans.jpg",
+  "notes": "¥45.8；商品已下架"
+ },
+ {
+  "id": "white-graphic-knit-overlay-top",
+  "name": "白色美式印花针织罩衫长袖",
+  "brand": "轻亚日常",
+  "price": 29.6,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "T恤",
+  "colorHex": "#e8e6e2",
+  "secondaryColorHex": "#9a9a9a",
+  "material": "棉（目测）",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "korean",
+   "lazy"
+  ],
+  "tags": [
+   "印花",
+   "罩衫",
+   "宽松",
+   "慵懒"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/white-graphic-knit-overlay-top.jpg",
+  "notes": "店铺优惠后¥29.6（原¥32.9）；聊天记录里有两张商品图，取白天对镜图"
+ },
+ {
+  "id": "mosesqueen-beige-cami-tank",
+  "name": "杏色细肩带吊带背心",
+  "brand": "MosesQueen",
+  "price": 15.79,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "背心",
+  "colorHex": "#e3d9c8",
+  "secondaryColorHex": null,
+  "material": "棉氨（待确认）",
+  "season": [
+   "春",
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "通勤"
+  ],
+  "aestheticTags": [
+   "minimal",
+   "korean"
+  ],
+  "tags": [
+   "细肩带",
+   "吊带",
+   "基础款"
+  ],
+  "purchaseDate": "2026-05-26",
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/mosesqueen-beige-cami-tank.jpg",
+  "notes": "订单实付价（标价¥20.99）；2026-05-26 下单"
+ },
+ {
+  "id": "mosesqueen-grey-cami-tank",
+  "name": "灰色细肩带吊带背心",
+  "brand": "MosesQueen",
+  "price": 15.79,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "背心",
+  "colorHex": "#a9adb3",
+  "secondaryColorHex": null,
+  "material": "棉氨（待确认）",
+  "season": [
+   "春",
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "通勤"
+  ],
+  "aestheticTags": [
+   "minimal",
+   "korean"
+  ],
+  "tags": [
+   "细肩带",
+   "吊带",
+   "基础款"
+  ],
+  "purchaseDate": "2026-05-26",
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/mosesqueen-grey-cami-tank.jpg",
+  "notes": "订单实付价（标价¥20.99）；2026-05-26 下单"
+ },
+ {
+  "id": "spear-youth-indigo-wide-jeans",
+  "name": "藏青原色高腰大阔腿垂感牛仔裤",
+  "brand": "SPEAR YOUTH",
+  "price": 58.6,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "牛仔裤",
+  "colorHex": "#232c42",
+  "secondaryColorHex": null,
+  "material": "原色丹宁",
+  "season": [
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "通勤"
+  ],
+  "aestheticTags": [
+   "korean",
+   "workwear"
+  ],
+  "tags": [
+   "原色丹宁",
+   "高腰",
+   "阔腿",
+   "垂感"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/spear-youth-indigo-wide-jeans.jpg",
+  "notes": "店铺优惠后¥58.6起（原¥69起）"
+ },
+ {
+  "id": "iu-room-white-balloon-pants",
+  "name": "白色高腰气球阔腿休闲裤",
+  "brand": "IU ROOM",
+  "price": 139.9,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "休闲裤",
+  "colorHex": "#ece8e0",
+  "secondaryColorHex": null,
+  "material": "棉涤（待确认）",
+  "season": [
+   "春",
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "通勤"
+  ],
+  "aestheticTags": [
+   "korean",
+   "minimal"
+  ],
+  "tags": [
+   "气球裤",
+   "高腰",
+   "垂感",
+   "宽松"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/iu-room-white-balloon-pants.jpg",
+  "notes": "¥139.9（券满69减20）；商品已下架"
+ },
+ {
+  "id": "black-lace-trim-cardigan",
+  "name": "黑色花边腰头开衫上衣（M）",
+  "brand": "一只闪闪",
+  "price": 65.99,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "针织衫",
+  "colorHex": "#17171a",
+  "secondaryColorHex": null,
+  "material": "针织",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "约会"
+  ],
+  "aestheticTags": [
+   "vintage",
+   "lazy"
+  ],
+  "tags": [
+   "花边",
+   "排扣",
+   "短款"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/black-lace-trim-cardigan.jpg",
+  "notes": "⚠️ 订单交易关闭（2026-05-19 下单）[待确认]：是否已通过其他渠道购入"
+ },
+ {
+  "id": "striped-wide-straight-pants",
+  "name": "灰白竖条纹直筒阔腿拖地裤",
+  "brand": "一只闪闪",
+  "price": 53.99,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "休闲裤",
+  "colorHex": "#9a9c9e",
+  "secondaryColorHex": "#ffffff",
+  "material": "涤纶混纺（待确认）",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "korean",
+   "lazy"
+  ],
+  "tags": [
+   "竖条纹",
+   "花边腰头",
+   "拖地",
+   "阔腿"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/striped-wide-straight-pants.jpg",
+  "notes": "店铺优惠后¥53.99起（原¥59.99起）"
+ },
+ {
+  "id": "black-tie-front-cardigan",
+  "name": "黑色纯欲风V领系带针织开衫",
+  "brand": "Vegetable Orbs",
+  "price": 119.0,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "针织衫",
+  "colorHex": "#17171a",
+  "secondaryColorHex": null,
+  "material": "针织",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "约会",
+   "休闲"
+  ],
+  "aestheticTags": [
+   "korean"
+  ],
+  "tags": [
+   "系带",
+   "V领",
+   "修身",
+   "短款"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/black-tie-front-cardigan.jpg",
+  "notes": "¥119；已下架（黑色现货/白色预售）"
+ },
+ {
+  "id": "black-rib-wide-strap-tank",
+  "name": "黑色螺纹宽肩带弹力背心",
+  "brand": "贰小姬",
+  "price": 29.9,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "背心",
+  "colorHex": "#1a1a1c",
+  "secondaryColorHex": null,
+  "material": "氨纶混纺（待确认）",
+  "season": [
+   "春",
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "通勤"
+  ],
+  "aestheticTags": [
+   "minimal",
+   "korean"
+  ],
+  "tags": [
+   "螺纹",
+   "宽肩带",
+   "修身"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/black-rib-wide-strap-tank.jpg",
+  "notes": "¥29.9；象牙白/黑色两色，截图为黑色"
+ },
+ {
+  "id": "black-floral-embroidery-tee",
+  "name": "黑色重工花卉刺绣防晒短袖T",
+  "brand": "NELY",
+  "price": 12.0,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "T恤",
+  "colorHex": "#141416",
+  "secondaryColorHex": "#d8cfd8",
+  "material": "棉",
+  "season": [
+   "夏"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "street",
+   "vintage"
+  ],
+  "tags": [
+   "刺绣",
+   "oversize",
+   "防晒",
+   "凉感"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/black-floral-embroidery-tee.jpg",
+  "notes": "¥12；已下架；upf50+"
+ },
+ {
+  "id": "forever21-washed-flare-jeans",
+  "name": "深蓝灰做旧低腰微喇牛仔裤",
+  "brand": "Forever 21",
+  "price": 125.0,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "牛仔裤",
+  "colorHex": "#3d4a5c",
+  "secondaryColorHex": null,
+  "material": "牛仔",
+  "season": [
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "约会"
+  ],
+  "aestheticTags": [
+   "vintage",
+   "y2k"
+  ],
+  "tags": [
+   "低腰",
+   "微喇",
+   "做旧水洗",
+   "遮胯"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/forever21-washed-flare-jeans.jpg",
+  "notes": "店铺优惠后¥125起（原¥139起）"
+ },
+ {
+  "id": "blaexit-grey-pleated-wide-trousers",
+  "name": "深灰老钱风A字打褶阔腿弯刀西裤",
+  "brand": "BLAEXIT",
+  "price": 130.0,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "西裤",
+  "colorHex": "#4a4d52",
+  "secondaryColorHex": null,
+  "material": "西装面料（待确认）",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "通勤",
+   "休闲"
+  ],
+  "aestheticTags": [
+   "clean-fit",
+   "quiet-luxury"
+  ],
+  "tags": [
+   "打褶",
+   "A字",
+   "阔腿",
+   "弯刀",
+   "垂感"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/blaexit-grey-pleated-wide-trousers.jpg",
+  "notes": "店铺入会后¥130（原¥148）"
+ },
+ {
+  "id": "grey-wing-print-base-layer",
+  "name": "灰色十字架天使翅膀印花长袖打底衫",
+  "brand": "eihey",
+  "price": 45.26,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "打底衫",
+  "colorHex": "#6f6f70",
+  "secondaryColorHex": "#e8e8e8",
+  "material": "棉（目测）",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "约会"
+  ],
+  "aestheticTags": [
+   "vintage",
+   "y2k"
+  ],
+  "tags": [
+   "修身",
+   "印花",
+   "打底",
+   "显瘦"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/grey-wing-print-base-layer.jpg",
+  "notes": "¥45.26；另有白色可选"
+ },
+ {
+  "id": "polka-dot-drawstring-jeans",
+  "name": "黑底白波点抽绳直筒牛仔裤",
+  "brand": "橘子树在哪儿",
+  "price": 113.9,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "牛仔裤",
+  "colorHex": "#202022",
+  "secondaryColorHex": "#e8e8e8",
+  "material": "牛仔",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "vintage",
+   "y2k"
+  ],
+  "tags": [
+   "波点",
+   "抽绳",
+   "直筒",
+   "拖地"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/polka-dot-drawstring-jeans.jpg",
+  "notes": "店铺优惠后¥113.9（原¥129.9）；JZSZNE"
+ },
+ {
+  "id": "charcoal-asymmetric-batwing-sweater",
+  "name": "深灰不对称高领蝙蝠袖套头毛衣",
+  "brand": "[待确认]",
+  "price": 62.9,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "针织衫",
+  "colorHex": "#3f4045",
+  "secondaryColorHex": null,
+  "material": "针织",
+  "season": [
+   "秋",
+   "冬"
+  ],
+  "occasion": [
+   "休闲",
+   "通勤"
+  ],
+  "aestheticTags": [
+   "lazy",
+   "quiet-luxury"
+  ],
+  "tags": [
+   "不对称",
+   "高领",
+   "蝙蝠袖",
+   "宽松"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/charcoal-asymmetric-batwing-sweater.jpg",
+  "notes": "¥62.9；浅灰/深灰两色，截图为深灰；已售3万+"
+ },
+ {
+  "id": "white-button-front-long-sleeve",
+  "name": "白色单排扣修身长袖打底衫",
+  "brand": "eihey",
+  "price": 49.49,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "打底衫",
+  "colorHex": "#f0efec",
+  "secondaryColorHex": null,
+  "material": "棉（目测）",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "通勤"
+  ],
+  "aestheticTags": [
+   "korean",
+   "minimal"
+  ],
+  "tags": [
+   "单排扣",
+   "V领",
+   "修身"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/white-button-front-long-sleeve.jpg",
+  "notes": "店铺优惠后¥49.49（原¥54.99）"
+ },
+ {
+  "id": "white-fur-hood-rhinestone-jacket",
+  "name": "白色毛领烫钻短款连帽开衫外套",
+  "brand": "eihey",
+  "price": 99.57,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "outerwear",
+  "subcategory": "夹克",
+  "colorHex": "#e9e7e3",
+  "secondaryColorHex": "#8a8a8a",
+  "material": "涤纶（待确认）",
+  "season": [
+   "秋",
+   "冬"
+  ],
+  "occasion": [
+   "休闲",
+   "约会"
+  ],
+  "aestheticTags": [
+   "street",
+   "y2k"
+  ],
+  "tags": [
+   "毛领",
+   "烫钻",
+   "短款",
+   "连帽",
+   "开衫"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/white-fur-hood-rhinestone-jacket.jpg",
+  "notes": "店铺优惠后¥99.57（原¥111.57）；主图标注「图片疑似AI生成」⚠️[待确认]"
+ },
+ {
+  "id": "black-slit-crop-cardigan",
+  "name": "黑色开叉收腰短款针织开衫",
+  "brand": "橘子树在哪儿",
+  "price": 97.73,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "针织衫",
+  "colorHex": "#17171a",
+  "secondaryColorHex": null,
+  "material": "针织",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "通勤",
+   "休闲"
+  ],
+  "aestheticTags": [
+   "korean",
+   "quiet-luxury"
+  ],
+  "tags": [
+   "开叉",
+   "收腰",
+   "短款",
+   "V领",
+   "排扣"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/black-slit-crop-cardigan.jpg",
+  "notes": "¥97.73；JZSZNR"
+ },
+ {
+  "id": "black-jennie-highwaist-jeans",
+  "name": "jennie风黑色高腰直筒阔腿牛仔裤",
+  "brand": "橘子树在哪儿",
+  "price": 109.9,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "牛仔裤",
+  "colorHex": "#1d2024",
+  "secondaryColorHex": "#d8d8d8",
+  "material": "牛仔",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "通勤"
+  ],
+  "aestheticTags": [
+   "korean",
+   "street"
+  ],
+  "tags": [
+   "高腰",
+   "直筒",
+   "阔腿",
+   "明线"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/black-jennie-highwaist-jeans.jpg",
+  "notes": "店铺优惠后¥109.9起（原¥124.89起）；JZSZNR；已售3万+"
+ },
+ {
+  "id": "black-la-popup-graphic-tee",
+  "name": "黑色LA pop-up海报印花短袖T",
+  "brand": "UPUPXIA·搞钱做慈善",
+  "price": 21.4,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "T恤",
+  "colorHex": "#17181a",
+  "secondaryColorHex": "#e8e8e8",
+  "material": "重磅棉260g",
+  "season": [
+   "春",
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "street",
+   "vintage"
+  ],
+  "tags": [
+   "重磅",
+   "印花",
+   "宽松",
+   "情侣款"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/black-la-popup-graphic-tee.jpg",
+  "notes": "店铺优惠后¥21.4（原¥23.8）；三本针260克双纱"
+ },
+ {
+  "id": "cbxlab-parachute-track-pants",
+  "name": "军绿大香蕉嘻哈速干伞兵运动裤",
+  "brand": "CBXLAB",
+  "price": 103.42,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "运动裤",
+  "colorHex": "#6b6a4f",
+  "secondaryColorHex": "#ffffff",
+  "material": "速干面料（待确认）",
+  "season": [
+   "春",
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "运动"
+  ],
+  "aestheticTags": [
+   "street"
+  ],
+  "tags": [
+   "伞兵裤",
+   "抽绳",
+   "速干",
+   "街舞"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/cbxlab-parachute-track-pants.jpg",
+  "notes": "店铺优惠后¥103.42（原¥129）；军绿/黑/粉三色，主图为军绿"
+ },
+ {
+  "id": "cbxlab-carbon-wasteland-cargo",
+  "name": "碳灰闪光废土嘻哈工装长裤",
+  "brand": "CBXLAB",
+  "price": 139.0,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "工装裤",
+  "colorHex": "#8b8b89",
+  "secondaryColorHex": null,
+  "material": "涤纶（待确认）",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "street"
+  ],
+  "tags": [
+   "废土",
+   "做旧",
+   "工装",
+   "街头爵士"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/cbxlab-carbon-wasteland-cargo.jpg",
+  "notes": "¥139；已下架"
+ },
+ {
+  "id": "black-double-yarn-tee",
+  "name": "3A黑色双纱重磅短袖T（M）",
+  "brand": "搞钱做慈善",
+  "price": 18.24,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "T恤",
+  "colorHex": "#141414",
+  "secondaryColorHex": null,
+  "material": "重磅棉260g",
+  "season": [
+   "春",
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "street",
+   "minimal"
+  ],
+  "tags": [
+   "重磅",
+   "双纱",
+   "基础款"
+  ],
+  "purchaseDate": "2025-04-08",
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/black-double-yarn-tee.jpg",
+  "notes": "⚠️ 订单显示该件已退款[待确认]；标价¥18.8"
+ },
+ {
+  "id": "white-double-yarn-tee",
+  "name": "3A白色双纱重磅短袖T（M）",
+  "brand": "搞钱做慈善",
+  "price": 18.24,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "T恤",
+  "colorHex": "#eceae4",
+  "secondaryColorHex": null,
+  "material": "重磅棉260g",
+  "season": [
+   "春",
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "street",
+   "minimal"
+  ],
+  "tags": [
+   "重磅",
+   "双纱",
+   "基础款"
+  ],
+  "purchaseDate": "2025-04-08",
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/white-double-yarn-tee.jpg",
+  "notes": "订单实付价（标价¥18.8）；2025-04-08 下单"
+ },
+ {
+  "id": "blue-graffiti-zip-hoodie",
+  "name": "蓝色涂鸦摇滚做旧连帽开衫外套",
+  "brand": "MADEEXTREME",
+  "price": 153.26,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "outerwear",
+  "subcategory": "夹克",
+  "colorHex": "#2c3542",
+  "secondaryColorHex": "#c8c8c8",
+  "material": "水洗棉（待确认）",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "street",
+   "vintage"
+  ],
+  "tags": [
+   "涂鸦",
+   "做旧水洗",
+   "连帽",
+   "开衫",
+   "oversize"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/blue-graffiti-zip-hoodie.jpg",
+  "notes": "平台加补后¥153.26（原¥158）；黑/灰/蓝三色，截图为蓝色"
+ },
+ {
+  "id": "white-graffiti-crop-zip-hoodie",
+  "name": "白色美式涂鸦字母短款连帽开衫",
+  "brand": "WHXS",
+  "price": 60.8,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "outerwear",
+  "subcategory": "夹克",
+  "colorHex": "#e5e3df",
+  "secondaryColorHex": "#1a1a1a",
+  "material": "抓绒（待确认）",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "street",
+   "y2k"
+  ],
+  "tags": [
+   "涂鸦",
+   "短款",
+   "连帽",
+   "开衫"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/white-graffiti-crop-zip-hoodie.jpg",
+  "notes": "¥60.8；已下架；已售38"
+ },
+ {
+  "id": "black-dove-print-tee",
+  "name": "黑色和平鸽印花短袖T",
+  "brand": "UPUPXIA·搞钱做慈善",
+  "price": 21.4,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "T恤",
+  "colorHex": "#17181a",
+  "secondaryColorHex": "#e8e8e8",
+  "material": "重磅棉260g",
+  "season": [
+   "春",
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "street",
+   "vintage"
+  ],
+  "tags": [
+   "重磅",
+   "印花",
+   "宽松"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/black-dove-print-tee.jpg",
+  "notes": "店铺优惠后¥21.4（原¥23.8）"
+ },
+ {
+  "id": "white-cat-analysis-tee",
+  "name": "白色「猫猫的分析」满印文字短袖T",
+  "brand": "搞钱做慈善",
+  "price": 26.8,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "T恤",
+  "colorHex": "#eae8e4",
+  "secondaryColorHex": "#2a2a2a",
+  "material": "重磅棉260g",
+  "season": [
+   "春",
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "vintage",
+   "street"
+  ],
+  "tags": [
+   "满印文字",
+   "重磅",
+   "宽松",
+   "情侣款"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/white-cat-analysis-tee.jpg",
+  "notes": "¥26.8；黑/白两色，截图为白色"
+ },
+ {
+  "id": "charcoal-y2k-lace-heart-tee",
+  "name": "深灰y2k蕾丝心形烫银大领口短袖T",
+  "brand": "[待确认]",
+  "price": 32.9,
+  "currency": "CNY",
+  "sourcePlatform": "pdd",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "T恤",
+  "colorHex": "#4a4a4c",
+  "secondaryColorHex": "#d8a8b8",
+  "material": "棉（目测）",
+  "season": [
+   "春",
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "约会"
+  ],
+  "aestheticTags": [
+   "y2k",
+   "vintage"
+  ],
+  "tags": [
+   "蕾丝印花",
+   "烫银",
+   "大领口",
+   "正肩"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/charcoal-y2k-lace-heart-tee.jpg",
+  "notes": "¥32.9（单独购买¥35.9）；拼多多"
+ },
+ {
+  "id": "black-leopard-cross-barrel-jeans",
+  "name": "黑色豹纹十字架烫钻弯刀阔腿牛仔裤",
+  "brand": "[待确认]",
+  "price": 50.0,
+  "currency": "CNY",
+  "sourcePlatform": "1688",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "牛仔裤",
+  "colorHex": "#1b1c1e",
+  "secondaryColorHex": "#c0c0c0",
+  "material": "牛仔",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "休闲",
+   "约会"
+  ],
+  "aestheticTags": [
+   "y2k",
+   "street"
+  ],
+  "tags": [
+   "弯刀",
+   "豹纹",
+   "十字架",
+   "烫钻",
+   "高腰"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/black-leopard-cross-barrel-jeans.jpg",
+  "notes": "1688批发价¥50（60天老客价）；满50减5"
+ },
+ {
+  "id": "snow-grey-modal-cardigan",
+  "name": "雪花灰天丝莫代尔轻薄V领针织开衫",
+  "brand": "[待确认]",
+  "price": 55.99,
+  "currency": "CNY",
+  "sourcePlatform": "1688",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "针织衫",
+  "colorHex": "#c9c9c7",
+  "secondaryColorHex": null,
+  "material": "天丝莫代尔",
+  "season": [
+   "春",
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "通勤",
+   "休闲"
+  ],
+  "aestheticTags": [
+   "minimal",
+   "korean"
+  ],
+  "tags": [
+   "轻薄",
+   "V领",
+   "排扣",
+   "亲肤"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/snow-grey-modal-cardigan.jpg",
+  "notes": "1688一件代发价¥55.99；多色，截图为雪花灰"
+ },
+ {
+  "id": "striped-polo-overshirt",
+  "name": "黑白条纹polo领宽松中长衬衫外套",
+  "brand": "[待确认]",
+  "price": 22.0,
+  "currency": "CNY",
+  "sourcePlatform": "1688",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "衬衫",
+  "colorHex": "#3a3a3a",
+  "secondaryColorHex": "#ffffff",
+  "material": "涤纶混纺（待确认）",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "korean",
+   "lazy"
+  ],
+  "tags": [
+   "条纹",
+   "polo领",
+   "oversize",
+   "中长款",
+   "两穿"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/striped-polo-overshirt.jpg",
+  "notes": "1688批发¥22（1件起批，≥100件¥20）"
+ },
+ {
+  "id": "grey-highwaist-midi-skirt",
+  "name": "灰色高腰韩系中长半身裙",
+  "brand": "木子恋",
+  "price": 59.99,
+  "currency": "CNY",
+  "sourcePlatform": "1688",
+  "sourceUrl": "",
+  "category": "bottom",
+  "subcategory": "裙装",
+  "colorHex": "#9b9b99",
+  "secondaryColorHex": "#2a2a2a",
+  "material": "涤纶混纺（待确认）",
+  "season": [
+   "春",
+   "夏",
+   "秋"
+  ],
+  "occasion": [
+   "通勤",
+   "休闲"
+  ],
+  "aestheticTags": [
+   "korean",
+   "minimal"
+  ],
+  "tags": [
+   "高腰",
+   "A字",
+   "中长",
+   "垂感"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/grey-highwaist-midi-skirt.jpg",
+  "notes": "1688一件代发¥59.99；另有藏青/黑色"
+ },
+ {
+  "id": "navy-plaid-overshirt",
+  "name": "藏青格纹宽松衬衫外套",
+  "brand": "eihey",
+  "price": 53.86,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "衬衫",
+  "colorHex": "#2c3442",
+  "secondaryColorHex": "#8a93a8",
+  "material": "涤纶混纺（待确认）",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "休闲"
+  ],
+  "aestheticTags": [
+   "vintage",
+   "korean"
+  ],
+  "tags": [
+   "格纹",
+   "oversize",
+   "两穿",
+   "设计感"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/navy-plaid-overshirt.jpg",
+  "notes": "店铺优惠后¥53.86（原¥59.86）"
+ },
+ {
+  "id": "slowacid-snowflake-scarf",
+  "name": "黑白雪花字母双面流苏围巾",
+  "brand": "slowacid",
+  "price": 82.0,
+  "currency": "CNY",
+  "sourcePlatform": "taobao",
+  "sourceUrl": "",
+  "category": "accessory",
+  "subcategory": "围巾 / 手套 / 皮带 / 墨镜 / 首饰",
+  "colorHex": "#e8e4da",
+  "secondaryColorHex": "#17171a",
+  "material": "棉+聚酯纤维",
+  "season": [
+   "冬"
+  ],
+  "occasion": [
+   "休闲",
+   "通勤"
+  ],
+  "aestheticTags": [
+   "vintage",
+   "korean"
+  ],
+  "tags": [
+   "双面",
+   "流苏",
+   "雪花字母",
+   "加厚"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/slowacid-snowflake-scarf.jpg",
+  "notes": "店铺优惠后¥82（原¥102）；金云鹤同款；韩国代购"
+ },
+ {
+  "id": "grey-polka-laceup-fitted-top",
+  "name": "灰色波点系带收腰长袖",
+  "brand": "米尼尼",
+  "price": 60.9,
+  "currency": "CNY",
+  "sourcePlatform": "pdd",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "打底衫",
+  "colorHex": "#8f8f91",
+  "secondaryColorHex": "#e8e8e8",
+  "material": "针织（待确认）",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "约会",
+   "休闲"
+  ],
+  "aestheticTags": [
+   "korean"
+  ],
+  "tags": [
+   "波点",
+   "系带",
+   "假两件",
+   "收腰",
+   "修身"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/grey-polka-laceup-fitted-top.jpg",
+  "notes": "到手价¥60.9（原¥75.9，满70减15）；已选灰色M"
+ },
+ {
+  "id": "oat-vneck-layered-cardigan",
+  "name": "灰褐V领假两件羊毛针织开衫",
+  "brand": "律政俏佳人",
+  "price": 99.9,
+  "currency": "CNY",
+  "sourcePlatform": "pdd",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "针织衫",
+  "colorHex": "#a89a88",
+  "secondaryColorHex": null,
+  "material": "羊毛/桑蚕丝（待确认）",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "通勤",
+   "休闲"
+  ],
+  "aestheticTags": [
+   "quiet-luxury",
+   "minimal"
+  ],
+  "tags": [
+   "假两件",
+   "V领",
+   "宽松",
+   "轻薄"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/oat-vneck-layered-cardigan.jpg",
+  "notes": "到手价¥99.9（原¥129.9，限时立减30）"
+ },
+ {
+  "id": "black-henley-shell-button-top",
+  "name": "黑色正肩收腰亨利领贝壳扣长袖打底",
+  "brand": "[待确认]",
+  "price": 69.0,
+  "currency": "CNY",
+  "sourcePlatform": "pdd",
+  "sourceUrl": "",
+  "category": "top",
+  "subcategory": "打底衫",
+  "colorHex": "#17181a",
+  "secondaryColorHex": null,
+  "material": "针织（待确认）",
+  "season": [
+   "春",
+   "秋"
+  ],
+  "occasion": [
+   "通勤",
+   "休闲"
+  ],
+  "aestheticTags": [
+   "korean",
+   "minimal"
+  ],
+  "tags": [
+   "亨利领",
+   "贝壳扣",
+   "正肩",
+   "收腰",
+   "修身"
+  ],
+  "purchaseDate": null,
+  "addedAt": "2026-09-28T13:35:00+08:00",
+  "image": "items/black-henley-shell-button-top.jpg",
+  "notes": "¥69；已选黑色长袖2.0版M；已售4.6万+"
+ }
+]
